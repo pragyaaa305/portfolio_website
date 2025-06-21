@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader">
+    <div class="spinner">Loading...</div>
+  </div>
+
+  <!-- Navbar -->
+  <nav>
+    <h1 class="logo">Priyu</h1>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle">🌓</button>
+
+    <!-- Hamburger -->
+    <div class="hamburger" onclick="toggleMenu()">
+      <img id="hamburger-icon" src="https://www.svgrepo.com/show/506800/burger-menu.svg" alt="Menu" />
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hey, I'm Priyu</h1>
+      <h2>Web Developer & UI/UX Designer</h2>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Web Dev Knowledge</h3>
+        <ul>
+          <li>Frontend Development</li>
+          <li>Framework Understanding</li>
+          <li>Website Cloning Projects</li>
+          <li>Responsive Design Practices</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Tools I Use</h3>
+        <ul>
+          <li>Figma</li>
+          <li>Canva</li>
+          <li>GitHub</li>
+          <li>VS Code</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Languages</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>C++</li>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>R</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Education</h3>
+        <ul>
+          <li>B.Tech in ECE</li>
+          <li>IGDTUW</li>
+          <li>1st Year</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="cards">
+      <div class="card project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Project">
+        <h3>Project One</h3>
+        <p>A short description of this project.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+      <div class="card project-card">
+        <img src="https://via.placeholder.com/300x200" alt="Project">
+        <h3>Project Two</h3>
+        <p>A short description of this project.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+
+    <!-- Contact Form -->
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+    <!-- Social Links -->
+    <div class="social-links">
+      <a href="mailto:pragyatripathi305@gmail.com" target="_blank">
+        <img src="image/mail.svg" alt="" />
+      </a>
+      <a href="https://www.instagram.com/pragyaa_989" target="_blank">
+        <img src="https://www.svgrepo.com/show/521711/instagram.svg" alt="" />
+      </a>
+      <a href="https://www.linkedin.com/in/pragya-tripathi-573198329" target="_blank">
+        <img src="image/linkedin.svg" alt="" />
+      </a>
+      <a href="https://github.com/pragyaaa305" target="_blank">
+        <img src="https://www.svgrepo.com/show/512317/github-142.svg" alt="" />
+      </a>
+    </div>
+  </section>
+
+  <!-- JS -->
+  <script src="script.js" defer></script>
+</body>
+</html>
+
