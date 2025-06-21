@@ -129,6 +129,7 @@
     box-shadow: 0 4px 10px rgba(255, 0, 119, 0.2);
     transition: transform 0.3s;
     border: 1px solid #ff0077;
+    
   }
 
   .card:hover {
@@ -147,7 +148,7 @@
   }
 
   .project-card img {
-    width: 100%;
+    width: 50%;
     border-radius: 8px;
     margin-bottom: 1rem;
   }
